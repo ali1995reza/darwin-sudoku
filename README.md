@@ -166,6 +166,7 @@ Selection is the only part that isn't random, and that's the point. Switch it of
 .
 ├── sudoku.py      # the evolution experiment (command-line program)
 ├── article.html   # interactive article explaining the experiment and results
+├── index.html     # redirects the GitHub Pages site to the article
 ├── README.md
 ├── LICENSE
 └── .gitignore
