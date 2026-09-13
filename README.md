@@ -3,7 +3,7 @@
 **Can random chance plus natural selection build something complex?**
 This project answers with an experiment you can run in a few seconds: thousands of Sudoku grids start as random numbers, know nothing about the rules, and still evolve into a perfect Sudoku, but only when nature is allowed to choose who survives.
 
-📖 **Read the article:** [`article.html`](article.html). It's an interactive, plain-language write-up with charts and a replay of a real run. Open it in a browser, or view it through GitHub Pages.
+📖 **Read the article:** [ali1995reza.github.io/darwin-sudoku](https://ali1995reza.github.io/darwin-sudoku/). It's an interactive, plain-language write-up in **English and Farsi**, with light and dark themes, charts and a replay of a real run. The source is [`article.html`](article.html).
 
 ---
 
