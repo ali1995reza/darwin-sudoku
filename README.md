@@ -3,7 +3,7 @@
 **Can random chance plus natural selection build something complex?**
 This project answers with an experiment you can run in a few seconds: thousands of Sudoku grids start as random numbers, know nothing about the rules, and still evolve into a perfect Sudoku, but only when nature is allowed to choose who survives.
 
-📖 **Read the article:** [ali1995reza.github.io/darwin-sudoku](https://ali1995reza.github.io/darwin-sudoku/). It's an interactive, plain-language write-up in **English and Farsi**, with light and dark themes, charts and a replay of a real run. The source is [`article.html`](article.html).
+📖 **Read the article:** [English](https://ali1995reza.github.io/darwin-sudoku/article/en/) · [فارسی](https://ali1995reza.github.io/darwin-sudoku/article/fa/). It's an interactive, plain-language write-up with light and dark themes, charts and a replay of a real run.
 
 ---
 
@@ -165,8 +165,16 @@ Selection is the only part that isn't random, and that's the point. Switch it of
 ```text
 .
 ├── sudoku.py      # the evolution experiment (command-line program)
-├── article.html   # interactive article explaining the experiment and results
-├── index.html     # redirects the GitHub Pages site to the article
+├── article/
+│   ├── en/
+│   │   ├── index.html   # the interactive article in English
+│   │   └── cover.png    # link preview image for social media
+│   ├── fa/
+│   │   ├── index.html   # the same article in Farsi
+│   │   └── cover.png    # link preview image for social media
+│   └── index.html       # redirects to the article
+├── index.html     # site home, redirects to the article
+├── article.html   # redirect for old links to the article
 ├── README.md
 ├── LICENSE
 └── .gitignore
